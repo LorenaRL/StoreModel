@@ -1,8 +1,8 @@
 <?php     
 $nome_servidor = "localhost";     
 $nome_usuario = "root";     
-$senha = "123456";     
-$nome_banco = "StoreModel";    
+$senha = "";     
+$nome_banco = "storemodel";    
 // Criar conexão     
 $conecta = new mysqli($nome_servidor, $nome_usuario, $senha,$nome_banco);     
 // Verificar Conexão     
@@ -13,10 +13,10 @@ if ($conecta->connect_error) {
 echo "Conexão realizada com sucesso <br>";     
 
  // Inserir vários registros 
- $sql = "INSERT INTO login(id_login, email,senha)    "
-         . "  VALUES ('2019000','junior@projecao.br','test');";    
- $sql .= "INSERT INTO login( email,senha)     "
-         . " VALUES (  'julie@gmail.com','123456789')";     
+ $sql = "INSERT INTO login(id_login,nome, email,senha, senhaRepete)    "
+         . "  VALUES ('2019000','Junior Abraão Canis',junior@projecao.br','test','test');";    
+ $sql .= "INSERT INTO login( nome,email,senha, senhaRepete)     "
+         . " VALUES ( 'Juliete Caneiro Luz', 'julie@gmail.com','123456789','123456789')";     
  if ($conecta->multi_query($sql) === TRUE) {        
      echo "Novos registros criados com sucesso<br>";     
      

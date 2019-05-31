@@ -1,7 +1,7 @@
 <?php     
 $nome_servidor = "localhost";     
 $nome_usuario = "root";     
-$senha = "123456";    
+$senha = "";    
 // Criar conexão 
     
 $conecta = new mysqli($nome_servidor, $nome_usuario, $senha);     
@@ -13,7 +13,7 @@ if ($conecta->connect_error)
     }      
 echo "Conexão realizada com sucesso <br>";     
 // Cria banco de dados     
-$sql = "CREATE DATABASE StoreModel";     
+$sql = "CREATE DATABASE storemodel";     
 if ($conecta->query($sql) === TRUE) {         
     echo "Banco de dados criado com sucesso<br>";     
     
