@@ -15,20 +15,20 @@ SESSION_START();
 		<link rel="shortcut icon" href="../template/favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="../template/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../template/css/component.css" />
-		<script src="../template/js/modernizr.custom.js"></script>
+                <script src="../template/js/modernizar.custom.js"></script>
 	</head>
 	<body>
 		<div class="container">	
 			<!-- Codrops top bar -->
 			
 			<header>
-				<h1>Olá¡, <?php echo $_SESSION['nome'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
+				<h1>Olá¡, <?php echo $_SESSION['email'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
 			</header>
 			<div class="main clearfix">
 				<nav id="menu" class="nav">					
 					<ul>
 						<li>
-							<a href="index.html">
+                                                    <a href="../template/index.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -36,7 +36,7 @@ SESSION_START();
 							</a>
 						</li>
 							<li>
-							<a href="about.html">
+                                                            <a href="../template/about.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-portfolio"></i>
 								</span>
@@ -61,7 +61,7 @@ SESSION_START();
 							</a>
 						</li>
 						<li>
-							<a href="contact.html">
+                                                    <a href="../template/contact.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-contact"></i>
 								</span>
@@ -71,7 +71,7 @@ SESSION_START();
 						</li>
 
 						<li>
-							<a href="index.html">
+                                                    <a href="logout.php">
 								<span class="icon"> 
 									<i aria-hidden="true" class="icon-signout"></i>
 								</span>

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!$_SESSION['emailLogin']) {
+if(!$_SESSION['email']) {
 	header('Location: ../template/index.html');
 	exit();
 }
