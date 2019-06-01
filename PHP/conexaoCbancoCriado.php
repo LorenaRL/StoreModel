@@ -1,8 +1,8 @@
 <?php
  $nome_servidor = "localhost";
  $nome_usuario = "root";
- $senha = "123456";
- $nome_banco = "StoreModel";
+ $senha = "";
+ $nome_banco = "storemodel";
  // Criar conexão
  $conecta = new mysqli($nome_servidor, $nome_usuario, $senha,$nome_banco);
  // Verificar Conexão

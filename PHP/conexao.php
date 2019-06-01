@@ -1,7 +1,7 @@
 <?php
  $nome_servidor = "localhost";
  $nome_usuario = "root";
- $senha = "123456";
+ $senha = "";
  // Criar conexão
  $conecta = new mysqli($nome_servidor, $nome_usuario, $senha);
  // Verificar Conexão
