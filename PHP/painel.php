@@ -22,7 +22,7 @@ SESSION_START();
 			<!-- Codrops top bar -->
 			
 			<header>
-				<h1>Olá¡, <?php echo $_SESSION['email'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
+				<h1>Olá¡, <?php echo $_SESSION['nome'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
 			</header>
 			<div class="main clearfix">
 				<nav id="menu" class="nav">					
