@@ -13,10 +13,10 @@ if ($conecta->connect_error) {
 echo "Conexão realizada com sucesso <br>";     
 
  // Inserir vários registros 
- $sql = "INSERT INTO login(id_login,nome, email,senha, senhaRepete)    "
-         . "  VALUES ('2019000','Junior Abraão Canis',junior@projecao.br','test','test');";    
- $sql .= "INSERT INTO login( nome,email,senha, senhaRepete)     "
-         . " VALUES ( 'Juliete Caneiro Luz', 'julie@gmail.com','123456789','123456789')";     
+ $sql = "INSERT INTO usuario(id_login,nome, email,senha, senhaRepete)    
+          VALUES ('2019000','Junior Abraão Canis','junior@projecao.br','test','test');";   
+ $sql .= "INSERT INTO usuario( nome,email,senha, senhaRepete)     
+          VALUES ( 'Juliete Caneiro Luz', 'julie@gmail.com','123456789','123456789')";     
  if ($conecta->multi_query($sql) === TRUE) {        
      echo "Novos registros criados com sucesso<br>";     
      

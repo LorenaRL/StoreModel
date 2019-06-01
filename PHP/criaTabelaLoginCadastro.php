@@ -17,8 +17,8 @@
  nome VARCHAR(50) NOT NULL,
  email VARCHAR(50) NOT NULL,
 
- senha varbinary(255) NOT NULL),
-  senhaRepete varbinary(255) NOT NULL)";
+ senha varbinary(255) NOT NULL,
+ senhaRepete varbinary(255) NOT NULL)";
 
  if ($conecta->query($sql) === TRUE) {
  echo "Tabela usuario criada com sucesso<br>";

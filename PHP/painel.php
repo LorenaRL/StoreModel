@@ -1,4 +1,4 @@
-//é onde vai abrir minha página de login
+<!--é onde vai abrir minha página de login-->
 <?php
 SESSION_START();
 
@@ -12,7 +12,7 @@ SESSION_START();
 		<meta name="description" content="Responsive Retina-Friendly Menu with different, size-dependent layouts" />
 		<meta name="keywords" content="responsive menu, retina-ready, icon font, media queries, css3, transition, mobile" />
 		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="shortcut icon" href="../template/favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="../template/css/default.css" />
 		<link rel="stylesheet" type="text/css" href="../template/css/component.css" />
 		<script src="../template/js/modernizr.custom.js"></script>
