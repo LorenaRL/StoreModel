@@ -4,8 +4,8 @@ include_once("conexaoCbancoCriado.php");
 
 $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$senha =  filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_EMAIL);
-$senhaRepete=  filter_input(INPUT_POST, 'senhaRepete', FILTER_SANITIZE_EMAIL);
+$senha =  filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
+$senhaRepete=  filter_input(INPUT_POST, 'senhaRepete', FILTER_SANITIZE_STRING);
 
 //echo "Nome: $nome <br>";
 //echo "E-mail: $email <br>";

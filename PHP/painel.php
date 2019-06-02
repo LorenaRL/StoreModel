@@ -28,7 +28,7 @@ SESSION_START();
 				<nav id="menu" class="nav">					
 					<ul>
 						<li>
-                                                    <a href="../template/pagUsuario/indexUsuario.html">
+                                                    <a href="../php/pagUsuario/indexUsuario.php">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -36,7 +36,7 @@ SESSION_START();
 							</a>
 						</li>
 							<li>
-                                                            <a href="../template/pagUsuario/aboutUsuario.html">
+                                                            <a href="../php/pagUsuario/aboutUsuario.php">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-portfolio"></i>
 								</span>
@@ -61,7 +61,7 @@ SESSION_START();
 							</a>
 						</li>
 						<li>
-                                                    <a href="../template/pagUsuario/contactUsuario.html">
+                                                    <a href="../php/pagUsuario/contactUsuario.php">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-contact"></i>
 								</span>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -16,10 +20,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--//tags -->
-<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
-<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="../css/font-awesome.css" rel="stylesheet"> 
+<link href="../../template/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../template/css/jquery-ui.css">
+<link href="../../template/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../template/css/font-awesome.css" rel="stylesheet"> 
 <!-- //for bootstrap working -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
@@ -32,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <li><i class="fa fa-mobile" aria-hidden="true"></i> Celular :61 995643211</li>
 			<li><i class="fa fa-phone" aria-hidden="true"></i> Telefone :61 34832526</li>
 			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">storemodeloficial@gmail.com</a></li>
-                        <li> <a href="../php/logout.php" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-out" aria-hidden="true"></i> Sair </a></li></ul>
+                        <li> <a href="../logout.php" data-toggle="modal" ><i class="fa fa-sign-out" aria-hidden="true"></i> Sair </a></li></ul>
 	</div>
 </div>
 <!-- //header -->
@@ -48,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- header-bot -->
 			<div class="col-md-4 logo_agile">
-				<h1><a href="indexUsuario.html"><span>S</span>tore <span>M</span>odel <i class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a></h1>
+                            <h1><a href="indexUsuario.php"><span>S</span>tore <span>M</span>odel <i class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a></h1>
 			</div>
         <!-- header-bot -->
 		<div class="col-md-4 agileits-social top_content">
@@ -91,35 +95,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav menu__list">
-					<li class="active menu__item"><a class="menu__link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-					<li class=" menu__item"><a class="menu__link" href="about.html">Sobre</a></li>
+					<li class="active menu__item"><a class="menu__link" href="index.php">Home <span class="sr-only">(current)</span></a></li>
+					<li class=" menu__item"><a class="menu__link" href="about.php">Sobre</a></li>
 					<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Homens<span class="caret"></span></a>
 							<ul class="dropdown-menu multi-column columns-3">
 								<div class="agile_inner_drop_nav_info">
 									<div class="col-sm-6 multi-gd-img1 multi-gd-text ">
-										<a href="mensUsuario.html"><img src="images/top2.jpg" alt=" "/></a>
+										<a href="mensUsuario.php"><img src="images/top2.jpg" alt=" "/></a>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="mensUsuario.html">Roupas</a></li>
-											<li><a href="mensUsuario.html">Carteiras</a></li>
-											<li><a href="mensUsuario.html">Calçados</a></li>
-											<li><a href="mensUsuario.html">Relógios</a></li>
-											<li><a href="mensUsuario.html">Acessórios</a></li>
-											<li><a href="mensUsuario.html">Bolsas</a></li>
-											<li><a href="mensUsuario.html">Bonés & Chapéus</a></li>
+											<li><a href="mensUsuario.php">Roupas</a></li>
+											<li><a href="mensUsuario.php">Carteiras</a></li>
+											<li><a href="mensUsuario.php">Calçados</a></li>
+											<li><a href="mensUsuario.php">Relógios</a></li>
+											<li><a href="mensUsuario.php">Accessorios</a></li>
+											<li><a href="mensUsuario.php">Bolsa</a></li>
+											<li><a href="mensUsuario.php">Bonés & Chapéus</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="mensUsuario.html">Jóias</a></li>
-											<li><a href="mensUsuario.html">Oculos escuros</a></li>
-											<li><a href="mensUsuario.html">Perfumes</a></li>
-											<li><a href="mensUsuario.html">Beleza</a></li>
-											<li><a href="mensUsuario.html">Camisas</a></li>
-											<li><a href="mensUsuario.html">Óculos escuros</a></li>
-											<li><a href="mensUsuario.html">Roupas de banho</a></li>
+											<li><a href="mensUsuario.php">Joiás</a></li>
+											<li><a href="mensUsuario.php">Óculos</a></li>
+											<li><a href="mensUsuario.php">Perfumes</a></li>
+											<li><a href="mensUsuario.php">Beleza</a></li>
+											<li><a href="mensUsuario.php">Saias</a></li>
+											<li><a href="mensUsuario.php">Roupa de Banho</a></li>
 										</ul>
 									</div>
 									<div class="clearfix"></div>
@@ -132,35 +135,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="agile_inner_drop_nav_info">
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="womensUsuario.html">Roupas</a></li>
-											<li><a href="womensUsuario.html">Carteiras</a></li>
-											<li><a href="womensUsuario.html">Calçados</a></li>
-											<li><a href="womensUsuario.html">Relógios</a></li>
-											<li><a href="womensUsuario.html">Acessórios</a></li>
-											<li><a href="womensUsuario.html">Bolsas</a></li>
-											<li><a href="womensUsuario.html">Bonés e Chapéus</a></li>
+											<li><a href="womensUsuario.php">Roupas</a></li>
+											<li><a href="womensUsuario.php">Carteiras</a></li>
+											<li><a href="womensUsuario.php">Calçados</a></li>
+											<li><a href="womensUsuario.php">Relógiod</a></li>
+											<li><a href="womensUsuario.php">Accessorios</a></li>
+											<li><a href="womensUsuario.php">Bolsas</a></li>
+											<li><a href="womensUsuario.php">Bonés & Chapéus</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-3 multi-gd-img">
 										<ul class="multi-column-dropdown">
-											<li><a href="womensUsuario.html">Jóias</a></li>
-											<li><a href="womensUsuario.html">Óculos escuros</a></li>
-											<li><a href="womensUsuario.html">Perfumes</a></li>
-											<li><a href="womensUsuario.html">Beleza</a></li>
-											<li><a href="womensUsuario.html">Camisas</a></li>
-											<li><a href="womensUsuario.html">Óculos escuros</a></li>
-											<li><a href="womensUsuario.html">Roupas de Banho</a></li>
+											<li><a href="womensUsuario.php">Jóiás</a></li>
+											<li><a href="womensUsuario.php">Óculos</a></li>
+											<li><a href="womensUsuario.php">Perfumes</a></li>
+											<li><a href="womensUsuario.php">Beleza</a></li>
+											<li><a href="womensUsuario.php">Saias</a></li>
+											
+											<li><a href="womensUsuario.php">Roupas de Banho</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-6 multi-gd-img multi-gd-text ">
-										<a href="womensUsuario.html"><img src="images/top1.jpg" alt=" "/></a>
+										<a href="womensUsuario.php"><img src="images/top1.jpg" alt=" "/></a>
 									</div>
 									<div class="clearfix"></div>
 								</div>
 							</ul>
 					</li>
 					
-					<li class=" menu__item"><a class="menu__link" href="contact.html">Contato</a></li>
+                                        <li class=" menu__item"><a class="menu__link" href="contactUsuario.php">Contato</a></li>
 				  </ul>
 				</div>
 			  </div>
@@ -303,7 +306,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="agile_inner_breadcrumb">
 
 						   <ul class="w3_short">
-								<li><a href="indexUsuario.html">Home</a><i>|</i></li>
+                                                       <li><a href="#home">Home</a><i>|</i></li>
 								<li>Roupas Femininas</li>
 							</ul>
 						 </div>
@@ -333,32 +336,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><input type="checkbox" id="item-0-0" /><label for="item-0-0"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>Roupas Modernas</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Bonés</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Calças</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
-									<li><a href="womensUsuario.html">Calças compridas</a></li>
+                                                                    <li><a href="womensUsuario.php">Camisas</a></li>
+									<li><a href="womensUsuario.php">Bonés</a></li>
+                                                                        <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+                                                                        <li><a href="womensUsuario.php">Óculos escuros</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças compridas</a></li>
 								</ul>
 							</li>
 							<li><input type="checkbox"  id="item-0-1" /><label for="item-0-1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Roupa de Festa</label>
 								<ul>
-                                                                    <li><a href="womensUsuario.html">Vestidos</a></li>
-									<li><a href="womensUsuario.html">Chapéis</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Acessórios</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
+                                                                    <li><a href="womensUsuario.php">Vestidos</a></li>
+                                                                    <li><a href="womensUsuario.php">Chapéis</a></li>
+                                                                    <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                    <li><a href="womensUsuario.php">Acessórios</a></li>
+                                                                    <li><a href="womensUsuario.php">Óculos escuros</a></li>
 									
 								</ul>
 							</li>
 							<li><input type="checkbox"  id="item-0-2" /><label for="item-0-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Roupa Casual</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Bonés</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Calçados</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
-									<li><a href="womensUsuario.html">Calças compridas</a></li>
+									
+                                                                    <li><a href="womensUsuario.php">Camisas</a></li>
+									<li><a href="womensUsuario.php">Bonés</a></li>
+                                                                        <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+                                                                        <li><a href="womensUsuario.php">Óculos escuros</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças compridas</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -367,11 +371,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><input type="checkbox" checked="checked" id="item-1-0" /><label for="item-1-0"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Novos produtos</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Calças</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
-								</ul>
+									
+                                                                    <li><a href="womensUsuario.php">Camisas</a></li>
+									<li><a href="womensUsuario.php">Bonés</a></li>
+                                                                        <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+                                                                      
 							</li>
 							
 						</ul>
@@ -380,26 +385,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul>
 							<li><input type="checkbox"  id="item-2-0" /><label for="item-2-0"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Descontos de Verão</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Roupa de banho</a></li>
-									<li><a href="womensUsuario.html">Calças</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
+                                                                    <li><a href="womensUsuario.php">Camisas</a></li>
+                                                                        <li><a href="womensUsuario.php">Roupa de banho</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+									<li><a href="womensUsuario.php">Óculos escuros</a></li>
 								</ul>
 							</li>
 							<li><input type="checkbox" id="item-2-1" /><label for="item-2-1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Ofertas Emocionantes</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Calças</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
+									   <li><a href="womensUsuario.php">Camisas</a></li>
+									<li><a href="womensUsuario.php">Bonés</a></li>
+                                                                        <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+                                                                      
 								</ul>
 							</li>
 							<li><input type="checkbox" id="item-2-2" /><label for="item-2-2"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Descontos Fixos</label>
 								<ul>
-									<li><a href="womensUsuario.html">Camisas</a></li>
-									<li><a href="womensUsuario.html">Sapatos</a></li>
-									<li><a href="womensUsuario.html">Calças</a></li>
-									<li><a href="womensUsuario.html">Óculos escuros</a></li>
+								   <li><a href="womensUsuario.php">Camisas</a></li>
+									<li><a href="womensUsuario.php">Bonés</a></li>
+                                                                        <li><a href="womensUsuario.php">Sapatos</a></li>
+                                                                        <li><a href="womensUsuario.php">Calças</a></li>
+                                                                      
 								</ul>
 							</li>
 						</ul>
@@ -971,7 +978,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="footer">
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-3 footer-left">
-			<h2><a href="indexUsuario.html"><span>S</span>tore<span>M</span>odel </a></h2>
+                    <h2><a href="indexUsuario.php"><span>S</span>tore<span>M</span>odel </a></h2>
 			<p>Uma loja que há 35 anos veste com elegância e modernidade a sociedade.</p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 															<li><a href="#" class="facebook">
@@ -993,12 +1000,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 sign-gd">
 					<h4>Nossas <span>Informações</span> </h4>
 					<ul>
-						<li><a href="indexUsuario.html">Home</a></li>
-						<li><a href="mensUsuario.html">Homem</a></li>
-						<li><a href="womensUsuario.html">Mulher</a></li>
-						<li><a href="aboutUsuario.html">Sobre</a></li>
+						<li><a href="indexUsuario.php">Home</a></li>
+						<li><a href="mensUsuario.php">Homem</a></li>
+						<li><a href="womensUsuario.php">Mulher</a></li>
+						<li><a href="aboutUsuario.php">Sobre</a></li>
 						
-						<li><a href="contactUsuario.html">Contatos</a></li>
+						<li><a href="contactUsuario.php">Contatos</a></li>
 					</ul>
 				</div>
 				
@@ -1126,9 +1133,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //login -->
 <a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- js -->
-<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../../template/js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
-<script src="../js/responsiveslides.min.js"></script>
+<script src="../../template/js/responsiveslides.min.js"></script>
 				<script>
 						// You can also use "$(window).load(function() {"
 						$(function () {
@@ -1148,10 +1155,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							});
 						});
 				</script>
-<script src="../js/modernizr.custom.js"></script>
+<script src="../../template/js/modernizr.custom.js"></script>
 	<!-- Custom-JavaScript-File-Links --> 
 	<!-- cart-js -->
-	<script src="../js/minicart.min.js"></script>
+	<script src="../../template/js/minicart.min.js"></script>
 <script>
 	// Mini Cart
 	paypal.minicart.render({
@@ -1180,11 +1187,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							});//]]>  
 
 							</script>
-						<script type="text/javascript" src="../js/jquery-ui.js"></script>
+						<script type="text/javascript" src="../../template/js/jquery-ui.js"></script>
 					 <!---->
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="../js/move-top.js"></script>
-<script type="text/javascript" src="../js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="../../template/js/move-top.js"></script>
+<script type="text/javascript" src="../../template/js/jquery.easing.min.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -1212,6 +1219,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //here ends scrolling icon -->
 
 <!-- for bootstrap working -->
-<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../../template/js/bootstrap.js"></script>
 </body>
 </html>
+
