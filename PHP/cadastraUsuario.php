@@ -19,7 +19,7 @@ if(mysqli_insert_id($conecta)){
 	header("Location: pagCadastro.php");
 }else{
 	$_SESSION['msg'] = "<p style='color:red;'>Usuário nÃo foi cadastrado com sucesso</p>";
-        alert("Usuário nÃo foi cadastrado com sucesso");
-	header("Location: pagCadastroErro");
+        
+	header("Location: pagCadastroErro.php");
 }
 ?>

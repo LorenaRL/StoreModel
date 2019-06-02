@@ -19,11 +19,11 @@ $resultado_contato = mysqli_query($conecta, $result_contato);
 if(mysqli_insert_id($conecta)){
 	$_SESSION['msg'] = "<p style='color:green;'>Usuário cadastrado com sucesso</p>";
  
-	header("Location: ../pagCadastro.php");
+	header("Location: pagCadastroContato.php");
 }else{
 	$_SESSION['msg'] = "<p style='color:red;'>Usuário nÃo foi cadastrado com sucesso</p>";
         
-	header("Location: pagCadastroErro");
+	header("Location: pagCadastroContatoErro.php");
 }
 ?>
 
