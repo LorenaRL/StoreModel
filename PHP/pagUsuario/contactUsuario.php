@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header-bot">
 	<div class="header-bot_inner_wthreeinfo_header_mid">
 		<div class="col-md-4 header-middle">
-			<form action="#" method="post">
+                    <form action="pagContato/insereDadosContato.php" method="post">
 				<input type="search" name="search" placeholder="Pesquise aqui..." required="">
 					<input type="submit" value=" ">
 				<div class="clearfix"></div>
@@ -197,12 +197,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3 class="agileinfo_sign">Entrar <span>Agora</span></h3>
 									<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
+								<input type="text" name="nome" required="">
 								<label>Nome</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
+								<input type="email" name="email" required=""> 
 								<label>E-mail</label>
 								<span></span>
 							</div> 
@@ -249,12 +249,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3 class="agileinfo_sign">Cadastrar <span>Agora</span></h3>
 									<form action="#" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
+								<input type="text" name="nome" required="">
 								<label>Nome</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
+								<input type="email" name="email" required=""> 
 								<label>E-mail</label>
 								<span></span>
 							</div> 
@@ -391,24 +391,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 contact-form">
 						<h4 class="white-w3ls"><span>Formulário para </span>Contato</h4>
-						<form action="#" method="post">
+                                                <form action="pagContato/insereDadosContato.php" method="post">
 							<div class="styled-input agile-styled-input-top">
-								<input type="text" name="Name" required="">
+								<input type="text" name="nome" required="">
 								<label>Nome</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<input type="email" name="Email" required=""> 
+								<input type="email" name="email" required=""> 
 								<label>E-mail</label>
 								<span></span>
 							</div> 
 							<div class="styled-input">
-								<input type="text" name="Subject" required="">
+								<input type="text" name="assunto" required="">
 								<label>Assunto</label>
 								<span></span>
 							</div>
 							<div class="styled-input">
-								<textarea name="Message" required=""></textarea>
+								<textarea name="mensagem" required=""></textarea>
 								<label>Mensagem</label>
 								<span></span>
 							</div>	 

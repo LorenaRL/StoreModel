@@ -53,7 +53,7 @@ SESSION_START();
 							</a>
 						</li>
 						<li>
-							<a href="#">
+                                                    <a href="../php/pagUsuario/dadosUsuario.php">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-team"></i>
 								</span>
