@@ -33,7 +33,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="header" id="home">
 	<div class="container">
 		<ul>
-		    <li><i class="fa fa-mobile" aria-hidden="true"></i> Celular :61 995643211</li>
+		                <li> <a href="../painel.php" data-toggle="modal" ><i class="fa fa-paper-plane" aria-hidden="true"></i> Voltar para minha página </a></li>
+
+		 
 			<li><i class="fa fa-phone" aria-hidden="true"></i> Telefone :61 34832526</li>
 			<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">storemodeloficial@gmail.com</a></li>
                         <li> <a href="../logout.php" data-toggle="modal" ><i class="fa fa-sign-out" aria-hidden="true"></i> Sair </a></li></ul>
