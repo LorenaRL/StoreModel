@@ -22,13 +22,13 @@ SESSION_START();
 			<!-- Codrops top bar -->
 			
 			<header>
-				<h1>Olá¡, <?php echo $_SESSION['email'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
+				<h1>Olá!, <?php echo $_SESSION['email'];?> <span>bem-vindo a sua página do StoreModel</span></h1>	
 			</header>
 			<div class="main clearfix">
 				<nav id="menu" class="nav">					
 					<ul>
 						<li>
-                                                    <a href="../template/index.html">
+                                                    <a href="../template/pagUsuario/indexUsuario.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-home"></i>
 								</span>
@@ -36,7 +36,7 @@ SESSION_START();
 							</a>
 						</li>
 							<li>
-                                                            <a href="../template/about.html">
+                                                            <a href="../template/pagUsuario/aboutUsuario.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-portfolio"></i>
 								</span>
@@ -61,7 +61,7 @@ SESSION_START();
 							</a>
 						</li>
 						<li>
-                                                    <a href="../template/contact.html">
+                                                    <a href="../template/pagUsuario/contactUsuario.html">
 								<span class="icon">
 									<i aria-hidden="true" class="icon-contact"></i>
 								</span>
