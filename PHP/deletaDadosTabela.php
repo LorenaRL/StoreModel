@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include('./conexaoCbancoCriado.php');
+    include('conexaoCbancoCriado.php');
     // apagar registro
 $sql = "DELETE FROM usuario WHERE id_login =2019009";
 if ($conecta->query($sql) === TRUE) {
