@@ -1,1 +1,2 @@
 # StoreModel
+-> PHP; HTML; CSS
